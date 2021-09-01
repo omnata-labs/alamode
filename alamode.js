@@ -410,7 +410,8 @@ var alamode = {
 
             if ($(this).find("img").length == 0) {
               $(this).css("text-align","center")
-              $(this).html("<img style='height: " + imgHeight + "px;' src='" + content + "'>")
+              $(this).html("<p>test</p>")
+              //$(this).html("<img style='height: " + imgHeight + "px;' src='" + content + "'>")
             }
           }
         })
